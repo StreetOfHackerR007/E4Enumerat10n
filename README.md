@@ -23,9 +23,16 @@ pip install -r requirements.txt
 # Usage:
 ```
 python E4Enumerat10n.py
+====[Banner]====
+Enter domain name : example.com
+Enter outfile name : example_emails.txt
 ```
 
 
+# Demo Screenshot: 
+![Demo screenshot of 404_Digger](https://github.com/StreetOfHackerR007/E4Enumerat10n/blob/master/Demo.PNG)
+ 
+ 
 # Developers:
 Rohit Soni [Twitter](https://twitter.com/streetofhacker) [Instagram](https://www.instagram.com/street_of_hacker/)
 
