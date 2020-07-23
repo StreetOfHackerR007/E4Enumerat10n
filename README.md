@@ -33,7 +33,7 @@ Enter outfile name : example_emails.txt
 ![Demo screenshot of 404_Digger](https://github.com/StreetOfHackerR007/E4Enumerat10n/blob/master/Demo.PNG)
  
  
-# Developers:
+# Developer:
 Rohit Soni [Twitter](https://twitter.com/streetofhacker) [Instagram](https://www.instagram.com/street_of_hacker/)
 
 
