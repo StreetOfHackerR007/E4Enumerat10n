@@ -1,5 +1,6 @@
 import requests
 import json
+import sys
 
 
 def banner():
@@ -44,6 +45,12 @@ url = 'https://public.intelx.io/phonebook/search/result?k=d7d1ed06-f0c5-49d4-a9c
 res = requests.get(url)
 res = res.content.decode("utf-8")
 res = json.loads(res)
+
+
+if(len(res['selectors']) == 0):
+    print('\nNo emails found associated with '+domain)
+    sys.exit()
+
 
 print('')
 
