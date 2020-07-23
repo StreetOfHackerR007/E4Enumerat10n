@@ -40,7 +40,7 @@ res = res.content.decode("utf-8")
 res = json.loads(res)
 
 
-url = 'https://public.intelx.io/phonebook/search/result?k=d7d1ed06-f0c5-49d4-a9ca-a167e6d2ffab&id='+str(res['id'])
+url = 'https://public.intelx.io/phonebook/search/result?k=d7d1ed06-f0c5-49d4-a9ca-a167e6d2ffab&id='+str(res['id']+'&limit=10000')
 
 res = requests.get(url)
 res = res.content.decode("utf-8")
